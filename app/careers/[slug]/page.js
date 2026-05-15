@@ -277,9 +277,11 @@ export default function JobDetailPage() {
                       Join our team of high-performers. Reach out to our HR team today to start your journey.
                     </p>
 
-                    {(job.application_email || job.emails) ? (
+                    {(job.application_email || job.emails?.length) ? (
                       <a
-                        href={`mailto:${job.application_email || job.emails}`}
+                        href={`https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent([job.application_email, ...(Array.isArray(job.emails) ? job.emails : job.emails ? [job.emails] : [])].filter(Boolean).join(','))}&su=${encodeURIComponent(`Applying for ${job.title}`)}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="btn btn-primary w-100 py-3 rounded-pill fw-bold d-flex align-items-center justify-content-center gap-2 shadow hover-lift"
                       >
                         <Mail size={18} /> Apply via Email
