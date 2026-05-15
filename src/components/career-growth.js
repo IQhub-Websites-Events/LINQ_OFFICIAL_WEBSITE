@@ -71,9 +71,10 @@ export const CareerGrowthHome = ({ members }) => {
                                     const slug = member.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)+/g, '');
                                     return (
                                         <div key={`${member.id}-${index}`} className="embla__slide">
-                                            <Link href={`/career-growth/member/${slug}`} className="cursor-pointer-cg text-decoration-none">
+                                            {/* routing disabled temporarily */}
+                                            <div className="cursor-pointer-cg text-decoration-none">
                                                 <TeamCard member={member} />
-                                            </Link>
+                                            </div>
                                         </div>
                                     );
                                 })}
@@ -88,9 +89,10 @@ export const CareerGrowthHome = ({ members }) => {
                                 const slug = member.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)+/g, '');
                                 return (
                                     <div key={`mobile-${member.id}-${index}`} className="mobile-slick-slide px-2 pb-4">
-                                        <Link href={`/career-growth/member/${slug}`} className="cursor-pointer-cg text-decoration-none">
+                                        {/* routing disabled temporarily */}
+                                        <div className="cursor-pointer-cg text-decoration-none">
                                             <TeamCard member={member} />
-                                        </Link>
+                                        </div>
                                     </div>
                                 );
                             })}
@@ -234,5 +236,3 @@ const CareerGrowth = ({ members = [], activeMemberSlug = null }) => {
 };
 
 export default CareerGrowth;
-
-
