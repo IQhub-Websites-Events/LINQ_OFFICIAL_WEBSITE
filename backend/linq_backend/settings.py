@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.2/ref/settings/
 """
 
+import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -74,14 +75,27 @@ WSGI_APPLICATION = 'linq_backend.wsgi.application'
 
 
 # Database
-# https://docs.djangoproject.com/en/5.2/ref/settings/#databases
+# Set DB_ENGINE=postgresql + DB_NAME/DB_USER/DB_PASSWORD/DB_HOST/DB_PORT to use PostgreSQL.
+# Default falls back to SQLite (development / rollback).
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+if os.environ.get('DB_ENGINE') == 'postgresql':
+    DATABASES = {
+        'default': {
+            'ENGINE':   'django.db.backends.postgresql',
+            'NAME':     os.environ.get('DB_NAME',     'linq_db'),
+            'USER':     os.environ.get('DB_USER',     'linq_user'),
+            'PASSWORD': os.environ.get('DB_PASSWORD', ''),
+            'HOST':     os.environ.get('DB_HOST',     'localhost'),
+            'PORT':     os.environ.get('DB_PORT',     '5432'),
+        }
     }
-}
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': BASE_DIR / 'db.sqlite3',
+        }
+    }
 
 
 # Password validation
