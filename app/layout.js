@@ -63,6 +63,7 @@ export default async function RootLayout({ children }) {
   return (
     <html lang="en" className={nunitoSans.variable}>
       <head>
+        <meta name="google-site-verification" content="SJ-l0l7hjHx7QKtZQTPrA8_J8uqypBqUlJDk0MOGQmE" />
         {/* Bulk Resource Preloading */}
         {initialData.imageUrls && initialData.imageUrls.map((url, idx) => (
           <link key={idx} rel="preload" as="image" href={url} />
