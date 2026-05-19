@@ -41,6 +41,9 @@ export const metadata = {
   icons: {
     icon: '/lfavicon.webp',
   },
+  verification: {
+    google: 'SJ-l0l7hjHx7QKtZQTPrA8_J8uqypBqUlJDk0MOGQmE',
+  },
 };
 
 import { Nunito_Sans } from "next/font/google";
