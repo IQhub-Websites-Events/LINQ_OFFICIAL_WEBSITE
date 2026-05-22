@@ -6,28 +6,28 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-  <loc>https://linq-corporate.com/</loc>
+  <loc>https://www.linq-corporate.com/</loc>
   <lastmod>2026-05-20T00:00:00+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>1.0</priority>
 </url>
 
 <url>
-  <loc>https://linq-corporate.com/about-us</loc>
+  <loc>https://www.linq-corporate.com/about-us</loc>
   <lastmod>2026-05-20T00:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.8</priority>
 </url>
 
 <url>
-  <loc>https://linq-corporate.com/view-our-team</loc>
+  <loc>https://www.linq-corporate.com/view-our-team</loc>
   <lastmod>2026-05-20T00:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.7</priority>
 </url>
 
 <!-- <url>
-  <loc>https://linq-corporate.com/career-growth</loc>
+  <loc>https://www.linq-corporate.com/career-growth</loc>
   <lastmod>2026-05-20T00:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.7</priority>

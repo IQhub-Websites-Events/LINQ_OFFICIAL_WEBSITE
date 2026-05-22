@@ -8,14 +8,14 @@ export const metadata = {
     "Explore how LINQ team members grow professionally within IQHUB's ecosystem. Read team spotlights and career journeys from professionals across data, tech, design, and sales in India.",
 
   alternates: {
-    canonical: "https://linq-corporate.com/career-growth",
+    canonical: "https://www.linq-corporate.com/career-growth",
   },
 
   openGraph: {
     title: "LINQ Corporate Solutions pvt ltd",
     description:
       "At LINQ, your career isn't just a job — it's a journey. See how our people are growing within IQHUB across 12+ global industries.",
-    url: "https://linq-corporate.com/career-growth",
+    url: "https://www.linq-corporate.com/career-growth",
     images: [
       {
         url: "/og-career-growth.jpg",

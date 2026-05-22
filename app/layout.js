@@ -6,7 +6,7 @@ import Providers from "./providers";
 // -> THESE ARE GLOBAL SEO TAGS. THEY APPLY TO ALL PAGES UNLESS OVERRIDDEN <-
 // (This is the root fallback for your entire website)
 export const metadata = {
-  metadataBase: new URL('https://linq-corporate.com'),
+  metadataBase: new URL('https://www.linq-corporate.com'),
   alternates: {
     canonical: '/',
   },
@@ -26,11 +26,11 @@ export const metadata = {
   openGraph: {
     title: 'LINQ Corporate Solutions pvt ltd',
     description: "LINQ is the dedicated operational arm of IQHUB, delivering expert data mining, sales, web development, graphic design, market research, and event management across Oil & Gas, Biotech, Defence, Aviation, and more.",
-    url: 'https://linq-corporate.com',
+    url: 'https://www.linq-corporate.com/',
     siteName: 'LINQ',
     images: [
       {
-        url: 'https://linq-corporate.com/',
+        url: 'https://www.linq-corporate.com/',
         width: 1200,
         height: 630,
       },

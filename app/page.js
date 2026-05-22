@@ -15,7 +15,7 @@ export const metadata = {
   title: "LINQ Corporate Solutions pvt ltd",
   description: "LINQ drives IQHUB's global operations from India — specializing in data mining, sales telecalling, web development, graphic design, market research, and large-scale event handling across 12+ industries including Healthcare, Defence, and Aviation.",
   alternates: {
-    canonical: "https://linq-corporate.com",
+    canonical: "https://www.linq-corporate.com/",
   },
   robots: {
     index: true,
@@ -48,8 +48,8 @@ export default async function Home() {
     "@type": "Organization",
     "name": "LINQ Corporate Solutions",
     "alternateName": "LINQ",
-    "url": "https://linq-corporate.com",
-    "logo": "https://linq-corporate.com/logo.png",
+    "url": "https://www.linq-corporate.com",
+    "logo": "https://www.linq-corporate.com/logo.png",
     "parentOrganization": {
       "@type": "Organization",
       "name": "IQHUB",

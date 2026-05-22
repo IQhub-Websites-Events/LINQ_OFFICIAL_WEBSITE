@@ -6,7 +6,7 @@ export const metadata = {
   title: "LINQ Corporate Solutions pvt ltd",
   description: "Learn how LINQ operates as the dedicated internal unit of IQHUB, fueling growth through data-driven operations, creative services, and strategic market research — all from India, serving global industries.",
   alternates: {
-    canonical: "https://linq-corporate.com/about-us",
+    canonical: "https://www.linq-corporate.com/about-us",
   },
   robots: {
     index: true,
@@ -15,7 +15,7 @@ export const metadata = {
   openGraph: {
     title: "LINQ Corporate Solutions pvt ltd",
     description: "LINQ is not a service agency — we are the internal engine of IQHUB, built to serve its operations across 12+ global industries with precision, creativity, and scale.",
-    url: "https://linq-corporate.com/about-us",
+    url: "https://www.linq-corporate.com/about-us",
   },
 };
 

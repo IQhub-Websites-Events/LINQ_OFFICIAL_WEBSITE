@@ -26,12 +26,12 @@ export async function generateMetadata({ params }) {
     title: `${name} – ${role} at LINQ`,
     description: `Meet ${name}, ${role} at LINQ — the internal operations team of IQHUB. Discover their journey, expertise, and growth.`,
     alternates: {
-      canonical: `https://linq-corporate.com/career-growth/member/${id}`,
+      canonical: `https://www.linq-corporate.com/career-growth/member/${id}`,
     },
     openGraph: {
       title: `${name} | ${role} – LINQ Team`,
       description: `${name} is part of LINQ's dedicated team powering IQHUB's operations.`,
-      url: `https://linq-corporate.com/career-growth/member/${id}`,
+      url: `https://www.linq-corporate.com/career-growth/member/${id}`,
       images: [{ url: image }],
     },
   };

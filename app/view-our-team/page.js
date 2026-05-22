@@ -6,7 +6,7 @@ export const metadata = {
   title: "LINQ Corporate Solutions pvt ltd",
   description: "Meet the talented professionals at LINQ who drive IQHUB's internal operations — from data analysts and web developers to sales specialists, designers, and market researchers based in India.",
   alternates: {
-    canonical: "https://linq-corporate.com/view-our-team",
+    canonical: "https://www.linq-corporate.com/view-our-team",
   },
   robots: {
     index: true,
@@ -15,7 +15,7 @@ export const metadata = {
   openGraph: {
     title: "LINQ Corporate Solutions pvt ltd",
     description: "Discover the driven individuals at LINQ who bring IQHUB's vision to life every day across industries like Cybersecurity, Sustainability, Biotechnology, and Deep Sea Mining.",
-    url: "https://linq-corporate.com/view-our-team",
+    url: "https://www.linq-corporate.com/view-our-team",
   },
   twitter: {
     card: "summary_large_image",

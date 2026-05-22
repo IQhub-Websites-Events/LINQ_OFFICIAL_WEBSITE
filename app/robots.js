@@ -9,6 +9,6 @@ export default function robots() {
         disallow: "/api/",
       },
     ],
-    sitemap: "https://linq-corporate.com/sitemap.xml",
+    sitemap: "https://www.linq-corporate.com/sitemap.xml",
   };
 }
